@@ -31,10 +31,6 @@
     transition: all .3s linear;
 }
 
-.suao-menu-item a:hover {
-    color: #DC8649;
-}
-
 .suao-line {
     width: 100%;
     border: 1px solid #B1CE72;
@@ -205,11 +201,6 @@
     transition: all .3s linear;
 }
 
-.suao-travel-bt a:hover {
-    border: 1px solid #79AE62;
-    color: #79AE62;
-}
-
 .suao-travel-child {
     background-image: url(../img/suao_travel_bg.svg), url(../img/suao_travel_bg1.svg);
     background-position: center top, center bottom;
@@ -285,11 +276,6 @@
     color: #DC8649;
     margin-top: 1rem;
     transition: all .3s linear;
-}
-
-.suao-travel-child-bt a:hover {
-    color: #fff;
-    background-color: #DC8649;
 }
 
 .suao-video {
@@ -380,10 +366,6 @@
     transition: all .3s linear;
 }
 
-.suao-passport-bt>a:hover {
-    background-color: #79AE62;
-}
-
 .suao-evaluate {
     width: 100%;
     background-image: url(../img/suao_evaluate_bg.svg);
@@ -425,10 +407,6 @@
     padding: 20px 20px;
     gap: 5%;
     transition: all .3s linear;
-}
-
-.suao-evaluate-content:hover {
-    background: #DC8649;
 }
 
 .suao-evaluate-content1 {
@@ -628,10 +606,6 @@
     padding: 10px;
     gap: 1rem;
     transition: all .3s linear;
-}
-
-.suao-event-icon a:hover {
-    color: #DC8649;
 }
 
 .suao-passport-table1 {
@@ -1224,5 +1198,33 @@
         height: 30px;
         font-size: 16px;
         background: rgba(255, 255, 255, .5);
+    }
+}
+
+@media (min-width: 768px) {
+    .suao-menu-item a:hover {
+        color: #DC8649;
+    }
+
+    .suao-travel-bt a:hover {
+        border: 1px solid #79AE62;
+        color: #79AE62;
+    }
+
+    .suao-travel-child-bt a:hover {
+        color: #fff;
+        background-color: #DC8649;
+    }
+
+    .suao-passport-bt>a:hover {
+        background-color: #79AE62;
+    }
+
+    .suao-event-icon a:hover {
+        color: #DC8649;
+    }
+
+    .suao-evaluate-content:hover {
+        background: #DC8649;
     }
 }
