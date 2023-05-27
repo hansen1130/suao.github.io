@@ -1169,13 +1169,13 @@
         border-bottom-right-radius: 10px;
     }
 
-    .suao-passport-row:nth-child(even) .suao-passport-cell1:nth-child(odd) {
-        background-color: #F0FADD;
-    }
+    /*.suao-passport-row:nth-child(even) .suao-passport-cell1:nth-child(odd) {
+    background-color: #F0FADD;
+}
 
-    .suao-passport-row:nth-child(odd) .suao-passport-cell1:nth-child(odd) {
-        background-color: #FAEEDD;
-    }
+.suao-passport-row:nth-child(odd) .suao-passport-cell1:nth-child(odd) {
+    background-color: #FAEEDD;
+}*/
 }
 
 @media (max-width: 880px) {
