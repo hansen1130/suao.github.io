@@ -570,7 +570,7 @@
     font-size: 1rem;
     color: #4F4F4F;
     flex: 1;
-    line-height: 50px;
+    padding: 1rem 0;
     padding-left: 1rem;
 }
 
@@ -703,6 +703,11 @@
     line-height: 50px;
     border-right: 1px solid #828282;
     border-bottom: 1px solid #828282;
+}
+
+.suao-passport-place-cell span {
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 .suao-passport-place-cell:last-child {
@@ -1124,7 +1129,6 @@
     }
 
     .suao-passport-cell {
-        line-height: 1.5rem;
         padding: .5rem;
         padding-left: 1rem;
     }
@@ -1170,13 +1174,13 @@
         border-bottom-right-radius: 10px;
     }
 
-    /*.suao-passport-row:nth-child(even) .suao-passport-cell1:nth-child(odd) {
-    background-color: #F0FADD;
-}
+    .suao-passport-row:nth-child(even) .suao-passport-cell1:nth-child(odd) {
+        background-color: #F0FADD;
+    }
 
-.suao-passport-row:nth-child(odd) .suao-passport-cell1:nth-child(odd) {
-    background-color: #FAEEDD;
-}*/
+    .suao-passport-row:nth-child(odd) .suao-passport-cell1:nth-child(odd) {
+        background-color: #FAEEDD;
+    }
 }
 
 @media (max-width: 880px) {
