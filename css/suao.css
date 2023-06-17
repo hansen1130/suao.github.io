@@ -613,7 +613,7 @@
 
 .suao-passport-table1 {
     display: flex;
-    width: 90%;
+    width: 100%;
     max-width: 1300px;
 }
 
@@ -673,7 +673,7 @@
 }
 
 .suao-passport-place-table1 {
-    width: 90%;
+    width: 100%;
     display: flex;
     gap: 20px;
     margin-top: 1rem;
@@ -691,7 +691,6 @@
 .suao-passport-place-table,
 .suao-passport-place-table2,
 .suao-passport-place-table4 {
-    width: 100%;
     max-width: 605px;
     border: 1px solid #828282;
     border-radius: 10px;
@@ -723,7 +722,7 @@
 .suao-passport-place-cell2,
 .suao-passport-place-cell5,
 .suao-passport-place-cell7 {
-    width: 200px;
+    min-width: 115px;
 }
 
 .suao-passport-place-cell3 {
